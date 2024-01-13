@@ -1,4 +1,5 @@
 # Ignore compiled object files and executables
+*.
 *.o
 *.out
 *.exe
