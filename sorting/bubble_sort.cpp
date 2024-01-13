@@ -7,6 +7,8 @@ int main(){
 }
 
 /*
+    With each iteration, it tries to store the largest
+    element at the end of the array.
     6 0 3 6
 
     i = 0 => j = 0 : 3
@@ -14,3 +16,4 @@ int main(){
     i = 2 => j = 0 : 1
     i = 3 => j = 0 : 0
 */
+
