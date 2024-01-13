@@ -2,8 +2,6 @@
 using namespace std;
 
 void printArray(int arr[], int n) {
-	// int n = sizeof(arr) / sizeof(arr[0]);
-
 	for (int i=0; i<n; i++) {
 		cout << arr[i] << " ";
 	}
@@ -11,8 +9,6 @@ void printArray(int arr[], int n) {
 }
 
 void SelectionSort(int arr[], int n) {
-	// int n = sizeof(arr) / sizeof(arr[0]);
-
 	for (int i=0; i<n; i++) {
 		int min_idx = i;
 
