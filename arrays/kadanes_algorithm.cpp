@@ -10,7 +10,7 @@ int find_max_subarray_sum(vector<int>& nums) {
 	for (auto i: nums) {
 		sum += i;
 		if (sum > maxSum) {
-			maxSum = max(maxSum, sum);
+			maxSum = sum;
 		}
 
 		if (sum < 0) sum = 0;
