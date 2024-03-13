@@ -1,6 +1,12 @@
 # Compiled class file
 *.class
 
+*.out
+
+input*
+output*
+*.swp
+
 # Log file
 *.log
 
